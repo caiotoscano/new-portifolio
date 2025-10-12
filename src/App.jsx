@@ -15,7 +15,6 @@ function App() {
       <Habilidades />
       <Projetos />
       <Contato />
-      {/*Futuramente as outras seções virão aqui*/}
     </main>
     <Footer />
     </>

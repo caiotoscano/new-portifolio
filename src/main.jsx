@@ -7,7 +7,6 @@ import { LanguageProvider } from './context/LanguageContext.jsx'; // 1. Importe
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* 2. Envolva o App */}
     <LanguageProvider>
       <App />
     </LanguageProvider>

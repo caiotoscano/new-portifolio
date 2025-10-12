@@ -1,4 +1,3 @@
-// src/context/LanguageContext.jsx
 import React, { createContext, useState, useContext } from 'react';
 import { translations } from '../translations';
 

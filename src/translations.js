@@ -9,7 +9,7 @@ export const translations = {
 
     // Hero
     heroTitulo: 'Olá, eu sou o Caio!',
-    heroSubtitulo: 'Desenvolvedor de Software',
+    heroSubtitulo: 'Engenheiro de analytics',
     heroBotao: 'Entre em Contato',
 
     // SobreMim
@@ -63,7 +63,7 @@ export const translations = {
 
     // Hero
     heroTitulo: "Hello, I'm Caio!",
-    heroSubtitulo: 'Software Developer',
+    heroSubtitulo: 'Analytics Engineer',
     heroBotao: 'Get in Touch',
 
     // SobreMim
