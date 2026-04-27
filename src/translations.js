@@ -14,7 +14,7 @@ export const translations = {
 
     // SobreMim
     sobreTitulo: 'Um pouco sobre minha história.',
-    sobreTexto1: `Olá, sou o Caio. Sou um entusiasta da tecnologia, fascinado por todo o ecossistema computacional, do hardware ao software. Cursando o 8º semestre de Engenharia da Computação, já coloco meu conhecimento em prática no mercado: há 1 ano e 4 meses, atuo como estagiário na Urgo Medical Brazil, uma multinacional do setor de saúde. Essa experiência, somada a um aprendizado contínuo com algumas formações especializadas, me permite aprofundar cada vez mais no universo dos dados.`,
+    sobreTexto1: `Olá, sou o Caio. Sou um entusiasta da tecnologia, fascinado por todo o ecossistema computacional, do hardware ao software. Cursando o 9º semestre de Engenharia da Computação, já coloco meu conhecimento em prática no mercado: há 2 anos, atuo como estagiário na Urgo Medical Brazil, uma multinacional do setor de saúde. Essa experiência, somada a um aprendizado contínuo com algumas formações especializadas, me permite aprofundar cada vez mais no universo dos dados.`,
     sobreTexto2: `Trabalho para construir uma carreira sólida para me tornar um especialista em quem as pessoas confiam quando o assunto é dados. Sou movido por uma grande ambição de resolver problemas complexos e acredito que a melhor solução nasce da integração inteligente de diferentes ferramentas e tecnologias. Meu foco é aplicar inteligência de dados para transformá-los em decisões estratégicas, sempre comprometido com a entrega de resultados que fazem a diferença.`,
 
     // Habilidades
@@ -68,7 +68,7 @@ export const translations = {
 
     // SobreMim
     sobreTitulo: 'A little about my story.',
-    sobreTexto1: `Hello, I'm Caio. I'm a technology enthusiast, fascinated by the entire computing ecosystem, from hardware to software. Currently in the 8th semester of Computer Engineering, I'm already applying my knowledge in the market: for 1 year and 4 months, I've been working as an intern at Urgo Medical Brazil, a multinational in the health sector. This experience, combined with continuous learning through specialized training, allows me to delve deeper into the world of data.`,
+    sobreTexto1: `Hello, I'm Caio. I'm a technology enthusiast, fascinated by the entire computing ecosystem, from hardware to software. Currently in the 9th semester of Computer Engineering, I'm already applying my knowledge in the market: for 2 years, I've been working as an intern at Urgo Medical Brazil, a multinational in the health sector. This experience, combined with continuous learning through specialized training, allows me to delve deeper into the world of data.`,
     sobreTexto2: `I am working to build a solid career to become an expert people trust when it comes to data. I am driven by a great ambition to solve complex problems and believe that the best solution comes from the intelligent integration of different tools and technologies. My focus is on applying data intelligence to transform it into strategic decisions, always committed to delivering results that make a difference.`,
     
     // Habilidades
