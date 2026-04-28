@@ -1,7 +1,7 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion as Motion } from 'framer-motion';
 import AnimatedSection from './AnimatedSection';
-import { useLanguage } from '../context/LanguageContext';
+import { useLanguage } from '../context/useLanguage';
 const containerVariants = {
   hidden: { opacity: 0 },
   visible: {
@@ -23,64 +23,64 @@ const Habilidades = () => {
     <AnimatedSection>
     <section
       id="habilidades"
-      className="bg-gray-900 text-white py-20 px-10">
+      className="bg-gray-900 text-white py-16 sm:py-20 px-5 sm:px-8 lg:px-10">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-4xl font-bold text-center mb-12">
+        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-10 sm:mb-12">
           {t.habilidadesTitulo}
         </h2>
 
-        <motion.div
-          className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8"
+        <Motion.div
+          className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 sm:gap-6 lg:gap-8"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
         >
-          <motion.div
-            className="flex flex-col items-center p-6 bg-gray-800 rounded-lg transition-transform duration-300"
-            variants={itemVariants}
-            whileHover={{ scale: 1.1, backgroundColor: '#5b21b6' }} // Efeito de hover melhorado
-          >
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" className="h-20 w-20 mb-4" />
-            <p className="text-xl font-medium">Python</p>
-          </motion.div>
-
-          <motion.div
-            className="flex flex-col items-center p-6 bg-gray-800 rounded-lg transition-transform duration-300"
+          <Motion.div
+            className="flex flex-col items-center p-4 sm:p-6 bg-gray-800 rounded-lg transition-transform duration-300 min-h-36 sm:min-h-44"
             variants={itemVariants}
             whileHover={{ scale: 1.1, backgroundColor: '#5b21b6' }}
           >
-            <img src="/excel.png" alt="excel" className="h-20 w-20 mb-4" />
-            <p className="text-xl font-medium">Excel</p>
-          </motion.div>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" className="h-14 w-14 sm:h-20 sm:w-20 mb-4" />
+            <p className="text-base sm:text-xl font-medium text-center">Python</p>
+          </Motion.div>
 
-          <motion.div
-            className="flex flex-col items-center p-6 bg-gray-800 rounded-lg transition-transform duration-300"
+          <Motion.div
+            className="flex flex-col items-center p-4 sm:p-6 bg-gray-800 rounded-lg transition-transform duration-300 min-h-36 sm:min-h-44"
             variants={itemVariants}
             whileHover={{ scale: 1.1, backgroundColor: '#5b21b6' }}
           >
-            <img src="data_science.png" alt="Data Science" className="h-20 w-20 mb-4" />
-            <p className="text-xl font-medium">Data-science</p>
-          </motion.div>
+            <img src="/excel.png" alt="excel" className="h-14 w-14 sm:h-20 sm:w-20 mb-4" />
+            <p className="text-base sm:text-xl font-medium text-center">Excel</p>
+          </Motion.div>
 
-          <motion.div
-            className="flex flex-col items-center p-6 bg-gray-800 rounded-lg transition-transform duration-300"
+          <Motion.div
+            className="flex flex-col items-center p-4 sm:p-6 bg-gray-800 rounded-lg transition-transform duration-300 min-h-36 sm:min-h-44"
             variants={itemVariants}
             whileHover={{ scale: 1.1, backgroundColor: '#5b21b6' }}
           >
-            <img src="/powerbi.png" alt="Power BI" className="h-20 w-20 mb-4" />
-            <p className="text-xl font-medium">Power BI</p>
-          </motion.div>
+            <img src="data_science.png" alt="Data Science" className="h-14 w-14 sm:h-20 sm:w-20 mb-4" />
+            <p className="text-base sm:text-xl font-medium text-center break-words">Data Science</p>
+          </Motion.div>
 
-          <motion.div
-            className="flex flex-col items-center p-6 bg-gray-800 rounded-lg transition-transform duration-300"
+          <Motion.div
+            className="flex flex-col items-center p-4 sm:p-6 bg-gray-800 rounded-lg transition-transform duration-300 min-h-36 sm:min-h-44"
             variants={itemVariants}
             whileHover={{ scale: 1.1, backgroundColor: '#5b21b6' }}
           >
-            <img src="/sql-server.png" alt="SQL" className="h-20 w-20 mb-4" />
-            <p className="text-xl font-medium">sql</p>
-          </motion.div>
-        </motion.div>
+            <img src="/powerbi.png" alt="Power BI" className="h-14 w-14 sm:h-20 sm:w-20 mb-4" />
+            <p className="text-base sm:text-xl font-medium text-center">Power BI</p>
+          </Motion.div>
+
+          <Motion.div
+            className="flex flex-col items-center p-4 sm:p-6 bg-gray-800 rounded-lg transition-transform duration-300 min-h-36 sm:min-h-44 col-span-2 sm:col-span-1"
+            variants={itemVariants}
+            whileHover={{ scale: 1.1, backgroundColor: '#5b21b6' }}
+          >
+            <img src="/sql-server.png" alt="SQL" className="h-14 w-14 sm:h-20 sm:w-20 mb-4" />
+            <p className="text-base sm:text-xl font-medium text-center">SQL</p>
+          </Motion.div>
+        </Motion.div>
       </div>
     </section>
     </AnimatedSection>

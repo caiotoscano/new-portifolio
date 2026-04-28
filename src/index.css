@@ -3,4 +3,7 @@
 
 html, body {
   font-family: 'Source Code Pro', monospace !important;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  overflow-x: hidden;
   @apply bg-gray-900;}

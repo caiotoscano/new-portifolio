@@ -1,5 +1,3 @@
-/** @type {import('tailwindcss').Config} */
-// 1. Importamos a 'fontFamily' do tema padrão do Tailwind.
 import { fontFamily } from 'tailwindcss/defaultTheme';
 
 export default {

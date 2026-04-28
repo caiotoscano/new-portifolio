@@ -1,30 +1,26 @@
-// src/translations.js
 export const translations = {
   pt: {
-    // Navbar
     navSobre: 'Sobre',
     navHabilidades: 'Habilidades',
     navProjetos: 'Projetos',
     navContato: 'Contato',
 
-    // Hero
     heroTitulo: 'Olá, eu sou o Caio!',
     heroSubtitulo: 'Engenheiro de analytics',
     heroBotao: 'Entre em Contato',
 
-    // SobreMim
     sobreTitulo: 'Um pouco sobre minha história.',
     sobreTexto1: `Olá, sou o Caio. Sou um entusiasta da tecnologia, fascinado por todo o ecossistema computacional, do hardware ao software. Cursando o 9º semestre de Engenharia da Computação, já coloco meu conhecimento em prática no mercado: há 2 anos, atuo como estagiário na Urgo Medical Brazil, uma multinacional do setor de saúde. Essa experiência, somada a um aprendizado contínuo com algumas formações especializadas, me permite aprofundar cada vez mais no universo dos dados.`,
     sobreTexto2: `Trabalho para construir uma carreira sólida para me tornar um especialista em quem as pessoas confiam quando o assunto é dados. Sou movido por uma grande ambição de resolver problemas complexos e acredito que a melhor solução nasce da integração inteligente de diferentes ferramentas e tecnologias. Meu foco é aplicar inteligência de dados para transformá-los em decisões estratégicas, sempre comprometido com a entrega de resultados que fazem a diferença.`,
 
-    // Habilidades
     habilidadesTitulo: 'Minhas habilidades',
 
-    // Projetos
     projetosTitulo: 'Meus Projetos',
+    projetosTexto: 'Projetos desenvolvidos para ampliar minha visão técnica, praticar diferentes tecnologias e fortalecer minha capacidade de entregar soluções completas em contextos variados.',
+    projetosDataScienceTitulo: 'Projetos de Data Science',
+    projetosDataScienceTexto: 'Uma seleção dos meus projetos com foco em automação, análise de dados, machine learning e extração de informações.',
     projetosBotao: 'Código Fonte',
 
-    // Contato
     contatoTitulo: 'Vamos conversar?',
     contatoSubtitulo: 'Adoraria saber mais em que posso ajudar.',
     contatoNome: 'Seu nome',
@@ -32,7 +28,6 @@ export const translations = {
     contatoMensagem: 'Sua mensagem',
     contatoEnviar: 'Enviar Mensagem',
 
-    // Footer
     footerGithub: 'Github',
     footerLinkedin: 'Linkedin',
     footerDireitos: 'Todos os direitos reservados.',
@@ -49,36 +44,45 @@ export const translations = {
     proj5_desc:'Um projeto de Machine Learning para prever o valor de imóveis com base em suas características (como área, quartos, etc.). Utilizando a biblioteca Scikit-learn, foi treinado um modelo de árvore de decisão para analisar os dados e realizar estimativas de preço de forma automatizada, aplicando os fundamentos da modelagem preditiva.',
     proj6_titulo: 'Cópia do Flappy bird - Desenvolvimento de jogos',
     proj6_desc: 'Uma recriação do icônico jogo Flappy Bird, desenvolvida do zero utilizando apenas Python. O projeto foi um estudo prático para implementar a arquitetura de um jogo 2D, incluindo a física de gravidade e pulo, geração procedural de obstáculos, detecção de colisões e o sistema de pontuação.',
+    proj7_titulo: 'Clusterização - Segmentação de clientes',
+    proj7_desc: 'Este projeto tem como objetivo realizar a segmentação de clientes de um supermercado utilizando técnicas de Aprendizado Não Supervisionado, mais especificamente Clustering. A proposta principal foi entender, na prática, o impacto de diferentes etapas do processo de Data Science — desde a análise exploratória até o pré-processamento e redução de dimensionalidade — nos resultados do modelo.',
+    proj8_titulo: 'Base MNIST - Deep Learning',
+    proj8_desc: 'Este projeto tem como objetivo desenvolver e avaliar modelos de Deep Learning para classificação de dígitos manuscritos utilizando o dataset MNIST. Ao longo dos notebooks, foi construída uma evolução progressiva de modelos, desde a compreensão inicial dos dados até a aplicação de técnicas avançadas como Data Augmentation e otimização de hiperparâmetros.',
+    proj9_titulo: 'Projeto Case Vaga iFood',
+    proj9_desc: 'Este projeto foi desenvolvido com base em um case de uma vaga de Cientista de Dados do iFood, com o objetivo de simular um problema real de negócio utilizando técnicas modernas de análise de dados e machine learning. O foco principal foi entender o comportamento dos clientes, segmentá-los e construir modelos preditivos capazes de identificar padrões relevantes para tomada de decisão.',
+    proj10_titulo: 'Predição emissão de CO2',
+    proj10_desc: 'Analisar fatores associados às emissões de CO₂ em veículos e desenvolver um modelo de regressão capaz de prever emissões com base em características do veículo. A aplicação final permite explorar os dados e estimar emissões de CO₂ a partir de parâmetros informados pelo usuário.',
+    proj11_titulo: 'Detecção de fraude em cartão de crédito',
+    proj11_desc: 'Este projeto tem como objetivo analisar e construir modelos de Machine Learning para detecção de fraudes em transações de cartão de crédito. A base de dados utilizada apresenta um alto desbalanceamento entre as classes, situação comum em problemas reais de fraude, onde as transações fraudulentas representam uma pequena fração do total.',
+    proj12_titulo: 'Análise BaseIBM',
+    proj12_desc: 'Este projeto utiliza a famosa base IBM HR Attrition Dataset, amplamente utilizada em estudos de People Analytics, Machine Learning e Análise de Rotatividade de Funcionários. O objetivo é analisar os fatores que influenciam a saída de funcionários (attrition) e desenvolver um modelo preditivo capaz de estimar a probabilidade de um colaborador deixar a empresa.',    
     contatoEnviando: 'Enviando...',
     contatoSucesso: 'Mensagem enviada. Obrigado pelo contato!',
     contatoErroServidor: 'Ocorreu um erro. Tente novamente.',
     contatoErroRede: 'Ocorreu um erro de rede. Verifique sua conexão.',
   },
   en: {
-    // Navbar
     navSobre: 'About',
     navHabilidades: 'Skills',
     navProjetos: 'Projects',
     navContato: 'Contact',
 
-    // Hero
     heroTitulo: "Hello, I'm Caio!",
     heroSubtitulo: 'Analytics Engineer',
     heroBotao: 'Get in Touch',
 
-    // SobreMim
     sobreTitulo: 'A little about my story.',
     sobreTexto1: `Hello, I'm Caio. I'm a technology enthusiast, fascinated by the entire computing ecosystem, from hardware to software. Currently in the 9th semester of Computer Engineering, I'm already applying my knowledge in the market: for 2 years, I've been working as an intern at Urgo Medical Brazil, a multinational in the health sector. This experience, combined with continuous learning through specialized training, allows me to delve deeper into the world of data.`,
     sobreTexto2: `I am working to build a solid career to become an expert people trust when it comes to data. I am driven by a great ambition to solve complex problems and believe that the best solution comes from the intelligent integration of different tools and technologies. My focus is on applying data intelligence to transform it into strategic decisions, always committed to delivering results that make a difference.`,
     
-    // Habilidades
     habilidadesTitulo: 'My Skills',
 
-    // Projetos
     projetosTitulo: 'My Projects',
+    projetosTexto: 'Projects developed to broaden my technical perspective, practice different technologies, and strengthen my ability to deliver complete solutions across varied contexts.',
+    projetosDataScienceTitulo: 'Data Science Projects',
+    projetosDataScienceTexto: 'A selection of my projects focused on automation, data analysis, machine learning, and information extraction.',
     projetosBotao: 'Source Code',
 
-    // Contato
     contatoTitulo: 'Let\'s talk?',
     contatoSubtitulo: 'I would love to hear how I can help.',
     contatoNome: 'Your Name',
@@ -86,7 +90,6 @@ export const translations = {
     contatoMensagem: 'Your Message',
     contatoEnviar: 'Send Message',
 
-    // Footer
     footerGithub: 'Github',
     footerLinkedin: 'Linkedin',
     footerDireitos: 'All rights reserved.',
@@ -102,6 +105,18 @@ export const translations = {
     proj5_desc:'A Machine Learning project to predict property values based on their characteristics (such as area, number of rooms, etc.). Using the Scikit-learn library, a decision tree model was trained to analyze data and perform automated price estimations, applying the fundamentals of predictive modeling.',
     proj6_titulo: 'Flappy Bird Clone - Game Development',
     proj6_desc: 'A recreation of the iconic game Flappy Bird, developed from scratch using only Python. The project was a practical study to implement the architecture of a 2D game, including gravity and jump physics, procedural obstacle generation, collision detection, and a scoring system.',
+    proj7_titulo: 'Clustering - Customer Segmentation',
+    proj7_desc: 'This project aims to segment supermarket customers using unsupervised learning techniques, specifically clustering. The main goal was to understand, in practice, the impact of different stages of the Data Science process, from exploratory analysis to preprocessing and dimensionality reduction, on the model results.',
+    proj8_titulo: 'MNIST Dataset - Deep Learning',
+    proj8_desc: 'This project aims to develop and evaluate Deep Learning models for handwritten digit classification using the MNIST dataset. Across the notebooks, a progressive evolution of models was built, from the initial understanding of the data to the application of advanced techniques such as data augmentation and hyperparameter optimization.',
+    proj9_titulo: 'iFood Job Case Project',
+    proj9_desc: 'This project was developed based on a case study from an iFood Data Scientist job opening, with the goal of simulating a real business problem using modern data analysis and machine learning techniques. The main focus was to understand customer behavior, segment customers, and build predictive models capable of identifying relevant patterns for decision-making.',
+    proj10_titulo: 'CO2 Emissions Prediction',
+    proj10_desc: 'This project analyzes factors associated with CO2 emissions in vehicles and develops a regression model capable of predicting emissions based on vehicle characteristics. The final application allows users to explore the data and estimate CO2 emissions from user-provided parameters.',
+    proj11_titulo: 'Credit Card Fraud Detection',
+    proj11_desc: 'This project aims to analyze and build Machine Learning models for detecting fraud in credit card transactions. The dataset used is highly imbalanced between classes, a common situation in real fraud problems, where fraudulent transactions represent only a small fraction of the total.',
+    proj12_titulo: 'IBM Dataset Analysis',
+    proj12_desc: 'This project uses the well-known IBM HR Attrition Dataset, widely used in People Analytics, Machine Learning, and employee turnover analysis studies. The goal is to analyze the factors that influence employee attrition and develop a predictive model capable of estimating the probability that an employee will leave the company.',
     contatoEnviando: 'Sending...',
     contatoSucesso: 'Message sent. Thank you for getting in touch!',
     contatoErroServidor: 'An error occurred. Please try again.',

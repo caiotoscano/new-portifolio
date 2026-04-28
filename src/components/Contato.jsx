@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
-import { motion } from 'framer-motion';
 import AnimatedSection from './AnimatedSection';
-import { useLanguage } from '../context/LanguageContext'
+import { useLanguage } from '../context/useLanguage'
 const Contato = () => {
     const { t } = useLanguage();
     const [formData, setFormData] = useState({
@@ -50,10 +49,10 @@ const handleSubmit = async (e) => {
 return (
     <AnimatedSection>
     <section 
-    id = "contato" className = "bg-gray-900 text-white py-20 px-10">
+    id = "contato" className = "bg-gray-900 text-white pt-2 sm:pt-4 pb-16 sm:pb-20 px-5 sm:px-8 lg:px-10">
         <div className = "container mx-auto max-w-2xl text-center">
-            <h2 className = "text-4xl font-bold mb-4">{t.contatoTitulo}</h2>
-            <p className = "text-gray-400 mb-8">
+            <h2 className = "text-3xl sm:text-4xl font-bold mb-4 leading-tight">{t.contatoTitulo}</h2>
+            <p className = "text-gray-400 mb-8 text-sm sm:text-base">
                 {t.contatoSubtitulo}
             </p>
             <form onSubmit={handleSubmit} className = "space-y-6 text-left">
@@ -66,7 +65,7 @@ return (
                     value = {formData.name}
                     onChange = {handleChange}
                     required
-                    className = "w-full p-2.5 bg-gray-800 border border-gray-600 rounded-lg text-white focus:ring-violet-500 focus:border-violet-500"/>             
+                    className = "w-full p-3 bg-gray-800 border border-gray-600 rounded-lg text-white focus:ring-violet-500 focus:border-violet-500"/>             
                 </div>
                 <div>
                     <label htmlFor = "email" className = "block mb-2 text-sm font-medium text-gray-300">{t.contatoEmail}</label>
@@ -77,7 +76,7 @@ return (
                 value = {formData.email}
                 onChange = {handleChange}
                 required
-                className = "w-full p-2.5 bg-gray-800 border border-gray-600 rounded-lg text-white focus:ring-violet-500 focus:border-violet-500" />
+                className = "w-full p-3 bg-gray-800 border border-gray-600 rounded-lg text-white focus:ring-violet-500 focus:border-violet-500" />
                 </div>
                 <div>
                 <label htmlFor="message" className = "block mb-2 text-sm font-medium text-gray-300">{t.contatoMensagem}</label>
@@ -88,7 +87,7 @@ return (
                 value = {formData.message}
                 onChange = {handleChange}
                 required
-                className = "w-full p-2.5 bg-gray-800 border border-gray-600 rounded-lg text-white focus:ring-violet-500 focus:border-violet-500"></textarea>
+                className = "w-full p-3 bg-gray-800 border border-gray-600 rounded-lg text-white focus:ring-violet-500 focus:border-violet-500"></textarea>
                 </div>
                 <button type = "submit"
                 disabled = {isSubmitting}
