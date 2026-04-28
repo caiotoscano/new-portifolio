@@ -100,12 +100,12 @@ const Projetos = () => {
     <AnimatedSection>
       <section
         id="projetos"
-        className="bg-gray-800 text-white pt-16 sm:pt-20 pb-2 sm:pb-4 px-5 sm:px-8 lg:px-10">
+        className="bg-gray-700 sm:bg-gray-800 text-white pt-16 sm:pt-20 pb-2 sm:pb-4 px-5 sm:px-8 lg:px-10">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4 leading-tight">
             {t.projetosTitulo}
           </h2>
-          <p className="text-gray-300 text-center max-w-3xl mx-auto mb-10 sm:mb-12 leading-relaxed text-sm sm:text-base">
+          <p className="text-gray-200 sm:text-gray-300 text-center max-w-3xl mx-auto mb-10 sm:mb-12 leading-relaxed text-sm sm:text-base">
             {t.projetosTexto}
           </p>
 
@@ -115,7 +115,7 @@ const Projetos = () => {
             ))}
           </div>
 
-          <div className="mt-14 sm:mt-20 rounded-2xl sm:rounded-3xl border border-sky-700/40 bg-gradient-to-br from-sky-950 via-sky-900 to-slate-900 p-5 sm:p-8 md:p-10 shadow-2xl shadow-sky-950/30">
+          <div className="mt-14 sm:mt-20 rounded-2xl sm:rounded-3xl border border-sky-500/40 sm:border-sky-700/40 bg-gradient-to-br from-sky-800 via-sky-900 to-slate-800 sm:from-sky-950 sm:via-sky-900 sm:to-slate-900 p-5 sm:p-8 md:p-10 shadow-2xl shadow-sky-950/30">
             <div className="mb-8 sm:mb-12 text-center">
               <h3 className="text-2xl sm:text-3xl font-bold text-sky-300 leading-tight">
                 {t.projetosDataScienceTitulo}

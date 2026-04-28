@@ -4,21 +4,22 @@ import { motion as Motion, useScroll, useTransform } from 'framer-motion';
 const AnimatedSection = ({ children }) => {
     const ref = useRef(null);
 
+    const { scrollYProgress } = useScroll({
+        target: ref,
+        offset: ["start end", "end start"]
+    });
 
-const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ["start end", "end start"]
-});
+    const opacity = useTransform(scrollYProgress, [0, 0.16, 0.78, 1], [0, 1, 1, 0]);
+    const scale = useTransform(scrollYProgress, [0, 0.16, 0.78, 1], [0.98, 1, 1, 0.98]);
 
-const opacity = useTransform(scrollYProgress, [0, 0.3, 0.9, 1], [0, 1, 1, 0]);
-const y = useTransform(scrollYProgress, [0, 0.5, 1], [200, 0, -200]);
-const scale = useTransform(scrollYProgress, [0, 0.5, 1], [0.9, 1, 0.9]);
-
-return (
-    <Motion.div ref = {ref} style = {{opacity, y, scale}}>
-        {children}
-    </Motion.div>
-);
+    return (
+        <Motion.div
+            ref={ref}
+            style={{ opacity, scale }}
+        >
+            {children}
+        </Motion.div>
+    );
 };
 
 export default AnimatedSection;

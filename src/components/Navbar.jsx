@@ -8,8 +8,9 @@ const Navbar = () => {
     const links = [
         { id: 1, name: t.navSobre, to: "sobre" },
         { id: 2, name: t.navHabilidades, to: "habilidades" },
-        { id: 3, name: t.navProjetos, to: "projetos" },
-        { id: 4, name: t.navContato, to: "contato" },
+        { id: 3, name: t.navCertificados, to: "certificados" },
+        { id: 4, name: t.navProjetos, to: "projetos" },
+        { id: 5, name: t.navContato, to: "contato" },
     ];
 
     return (
@@ -19,9 +20,9 @@ const Navbar = () => {
                 Caio T.
             </Link>
             <div className = "flex items-center gap-4 md:gap-8">
-            <ul className = "hidden md:flex gap-8">
+            <ul className = "hidden md:flex gap-5 lg:gap-8">
                 {links.map(link => (
-                    <li key = {link.id} className = "text-lg text-gray-300 hover:text-violet-400 transition-colors cursor-pointer">
+                    <li key = {link.id} className = "text-base lg:text-lg text-gray-300 hover:text-violet-400 transition-colors cursor-pointer">
                      <Link to = {link.to} smooth = {true} duration = {500}>
                      {link.name}
                      </Link>

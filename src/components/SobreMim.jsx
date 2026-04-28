@@ -23,20 +23,25 @@ const SobreMim = () => {
                     className = "rounded-full shadow-lg mx-auto h-44 w-44 sm:h-56 sm:w-56 md:h-auto md:w-auto object-cover"
                     />
                 </div>
-                <div className = "md:w-2/3 text-base sm:text-lg text-gray-300 leading-relaxed text-left">
-                {isInView && (
-                    <TypeAnimation
-                    key = {t.sobreTexto1}
-                    sequence = {[
-                        fullText,
-                    ]}
-                    wrapper = "p"
-                    speed = {60}
-                    style = {{ whiteSpace: 'pre-line' }}
-                    repeat = {0}
-                    cursor = {true}
-                />
-                )}
+                <div className = "relative md:w-2/3 text-base sm:text-lg text-gray-300 leading-relaxed text-left">
+                    <p className="invisible whitespace-pre-line">
+                        {fullText}
+                    </p>
+                    <div className="absolute inset-0">
+                        {isInView && (
+                            <TypeAnimation
+                                key = {t.sobreTexto1}
+                                sequence = {[
+                                    fullText,
+                                ]}
+                                wrapper = "p"
+                                speed = {60}
+                                style = {{ whiteSpace: 'pre-line' }}
+                                repeat = {0}
+                                cursor = {true}
+                            />
+                        )}
+                    </div>
                 </div>
             </div>
         </div>

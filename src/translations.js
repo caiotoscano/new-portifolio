@@ -2,6 +2,7 @@ export const translations = {
   pt: {
     navSobre: 'Sobre',
     navHabilidades: 'Habilidades',
+    navCertificados: 'Certificados',
     navProjetos: 'Projetos',
     navContato: 'Contato',
 
@@ -14,6 +15,15 @@ export const translations = {
     sobreTexto2: `Trabalho para construir uma carreira sólida para me tornar um especialista em quem as pessoas confiam quando o assunto é dados. Sou movido por uma grande ambição de resolver problemas complexos e acredito que a melhor solução nasce da integração inteligente de diferentes ferramentas e tecnologias. Meu foco é aplicar inteligência de dados para transformá-los em decisões estratégicas, sempre comprometido com a entrega de resultados que fazem a diferença.`,
 
     habilidadesTitulo: 'Minhas habilidades',
+
+    certificadosTitulo: 'Certificados',
+    certificadosTexto: 'Formações complementares que consolidam minha base técnica em programação, dados, automação e ferramentas de análise.',
+    certPythonTitulo: 'Python Impressionador',
+    certDataScienceTitulo: 'Ciência de Dados Impressionador',
+    certPowerBiTitulo: 'Power BI Impressionador',
+    certAlgorithmsTitulo: 'Algoritmos e Lógica de Programação',
+    certJavaScriptTitulo: 'JavaScript Impressionador',
+    certVbaTitulo: 'VBA Impressionador',
 
     projetosTitulo: 'Meus Projetos',
     projetosTexto: 'Projetos desenvolvidos para ampliar minha visão técnica, praticar diferentes tecnologias e fortalecer minha capacidade de entregar soluções completas em contextos variados.',
@@ -64,6 +74,7 @@ export const translations = {
   en: {
     navSobre: 'About',
     navHabilidades: 'Skills',
+    navCertificados: 'Certificates',
     navProjetos: 'Projects',
     navContato: 'Contact',
 
@@ -76,6 +87,15 @@ export const translations = {
     sobreTexto2: `I am working to build a solid career to become an expert people trust when it comes to data. I am driven by a great ambition to solve complex problems and believe that the best solution comes from the intelligent integration of different tools and technologies. My focus is on applying data intelligence to transform it into strategic decisions, always committed to delivering results that make a difference.`,
     
     habilidadesTitulo: 'My Skills',
+
+    certificadosTitulo: 'Certificates',
+    certificadosTexto: 'Complementary training that strengthens my technical foundation in programming, data, automation, and analytics tools.',
+    certPythonTitulo: 'Python Impressionador',
+    certDataScienceTitulo: 'Data Science Impressionador',
+    certPowerBiTitulo: 'Power BI Impressionador',
+    certAlgorithmsTitulo: 'Algorithms and Programming Logic',
+    certJavaScriptTitulo: 'JavaScript Impressionador',
+    certVbaTitulo: 'VBA Impressionador',
 
     projetosTitulo: 'My Projects',
     projetosTexto: 'Projects developed to broaden my technical perspective, practice different technologies, and strengthen my ability to deliver complete solutions across varied contexts.',

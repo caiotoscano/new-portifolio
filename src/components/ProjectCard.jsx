@@ -4,16 +4,16 @@ import { useLanguage } from '../context/useLanguage';
 
 const cardThemes = {
   default: {
-    front: 'bg-gray-900',
+    front: 'bg-gray-800 sm:bg-gray-900 border border-gray-700/70 sm:border-0',
     frontTitle: 'text-violet-400',
-    back: 'bg-violet-800',
-    button: 'bg-gray-900 hover:bg-black',
+    back: 'bg-violet-700 sm:bg-violet-800',
+    button: 'bg-gray-800 hover:bg-black sm:bg-gray-900',
   },
   dataScience: {
-    front: 'bg-sky-950/90 border border-sky-700/50',
+    front: 'bg-sky-900 sm:bg-sky-950/90 border border-sky-600/60 sm:border-sky-700/50',
     frontTitle: 'text-sky-300',
-    back: 'bg-sky-700',
-    button: 'bg-sky-950 hover:bg-sky-900',
+    back: 'bg-sky-600 sm:bg-sky-700',
+    button: 'bg-sky-900 hover:bg-sky-800 sm:bg-sky-950 sm:hover:bg-sky-900',
   },
 };
 

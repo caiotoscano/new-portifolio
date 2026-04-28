@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar.jsx";
 import Habilidades from "./components/Habilidades.jsx";
+import Certificados from "./components/Certificados.jsx";
 import Hero from "./components/Hero.jsx";
 import Projetos from "./components/Projetos.jsx";
 import SobreMim from "./components/SobreMim.jsx";
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <SobreMim />
       <Habilidades />
+      <Certificados />
       <Projetos />
       <Contato />
     </main>
